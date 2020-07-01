@@ -59,6 +59,7 @@ namespace TDD2
         }
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
+            //is used to store the info as strings
             Chnge = Convert.ToInt32(numericUpDown1.Value);
 
             if (Chnge == 1)
@@ -116,6 +117,7 @@ namespace TDD2
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //is used to store the info as strings
             if (Chnge == 1)
             {
                 q1 = textBox6.Text;
@@ -180,6 +182,7 @@ namespace TDD2
 
         private void button4_Click(object sender, EventArgs e)
         {
+            //interest calculator
             Time = Convert.ToDouble(numericUpDown2.Value);
             string[] temp = textBox6.Text.Split('\n');
             int lenth = temp.Count();
